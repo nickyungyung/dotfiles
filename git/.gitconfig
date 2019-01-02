@@ -1,6 +1,6 @@
 [user]
-	name = Alan Chan
-	email = achan961117@gmail.com
+	name = Nicholas Yung
+	email = nickyungyung@gmail.com
 
 [core]
 	editory = vim
@@ -105,4 +105,4 @@
 	autoupdate = 1
 
 [github]
-	user = pinealan
+	user = nickyungyung

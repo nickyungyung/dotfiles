@@ -126,3 +126,5 @@ if [ -f ~/.local/.bash_aliases ]; then
     . ~/.local/.bash_aliases
 fi
 
+
+eval $(thefuck --alias)

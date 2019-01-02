@@ -103,7 +103,11 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'iamcco/markdown-preview.vim'
-
+Plugin 'iamcco/mathjax-support-for-mkdp'
+filetype plugin on
+" iamcco {{{
+" let g:mkdp_path_to_chrome = 'firefox'
+" }}}
 
 call vundle#end()
 filetype plugin indent on
@@ -439,7 +443,6 @@ augroup usr
     autocmd BufRead     *.c,*.cpp,*.h,*.hpp,*.py,*.java,*.js,*.php,*.sh syn keyword TODO NOTE Todo Note todo note
     autocmd BufNewfile  *.php r ~/.vim/template/template.php | normal kdd
 
-    autocmd VimEnter    *.c,*.cpp,*.py vsp
 augroup END
 
 

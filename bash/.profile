@@ -26,3 +26,6 @@ if [ $SHLVL == 1 ]; then
         . "$HOME/.local/.profile"
     fi
 fi
+
+export PATH=$PATH:/usr/local/go/bin
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
